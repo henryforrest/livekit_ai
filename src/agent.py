@@ -177,8 +177,8 @@ class Assistant(Agent):
             name: The name of the visitor checking in
         """
 
-        list_of_visitors = list_of_visitors.append(name)
-
+        list_of_visitors.append(name)
+        
         return "Welcome to The Shard, {}! I have checked you in and printed a visitor badge for you. Please take a seat in the lobby while I notify your contact.".format(name)
 
     @function_tool
